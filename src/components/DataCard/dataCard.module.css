@@ -1,0 +1,13 @@
+.datacard_main{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #FFF;
+    /* width: 12%; */
+    padding: 2% 1%;
+    border-radius: 6%;
+}
+
+.datacardImg img{
+    width: 78px;
+}

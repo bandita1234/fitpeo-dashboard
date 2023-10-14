@@ -1,0 +1,87 @@
+.header {
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0 2% 0;
+}
+.datacardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.searchIcon {
+  margin-right: 10px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+}
+
+.middle {
+  display: flex;
+  gap: 2%;
+  margin-top: 20px;
+}
+
+/* BarChart */
+.barChartContainer {
+  /* width: 100%; */
+  overflow-y: auto;
+  flex: 2;
+  /* max-height: 320px; */
+  background-color: #fff;
+  padding: 2%;
+  border-radius: 4%;
+}
+.barchartSelect {
+  border: none;
+  outline: none;
+}
+.barChartHeader {
+  display: flex;
+  /* flex: 1; */
+  justify-content: space-between;
+  /* width: 100%; */
+}
+.doughnutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  flex: 1;
+  /* max-width: 30%; */
+  overflow-y: auto;
+  /* max-height: 420px; */
+  background-color: #fff;
+  padding: 2%;
+  border-radius: 4%;
+}
+
+.doughnutChart{
+  position: relative;
+}
+.doughnutCenterText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
