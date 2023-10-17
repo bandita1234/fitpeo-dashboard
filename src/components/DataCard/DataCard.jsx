@@ -9,9 +9,9 @@ const DataCard = (props) => {
             <img src={props.img} alt="" />
         </div>
         <div>
-            <p>{props.title}</p>
+            <p className="paragraph">{props.title}</p>
             <h2>{props.value}</h2>
-            <p><span>37.8%</span>this month</p>
+            <p><span style={props.up ? {color:'green',fontWeight: 'bolder'} : {color:'red', fontWeight: 'bolder'}}>{props.percentage} </span>this month</p>
         </div>
     </div>
   )

@@ -11,8 +11,6 @@ function App() {
   return (
     <>
       <div>
-        <div></div>
-        
         <div className="dashboard">
           <Sidebar />
           <Dashboard />
