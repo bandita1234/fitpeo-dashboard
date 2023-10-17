@@ -82,7 +82,7 @@ const Sidebar = () => {
               <img src={my_img} alt="" />
             </div>
             <div>
-              <h4>Bandita</h4>
+              <p>Bandita</p>
               <p className="paragraph">Web Developer</p>
             </div>
           </div>
