@@ -118,7 +118,7 @@ const Dashboard = () => {
     <div className={styles.dashboard_main}>
       <div className={styles.header}>
         <div className={styles.nav}>
-          <h4>Hello Shahrukh 👋 ,</h4>
+          <h4>Hello Shahrukh 👋,</h4>
           <div className={styles.searchContainer}>
             <AiOutlineSearch className={styles.searchIcon} />
             <input
@@ -212,7 +212,8 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <hr />
+          <div className={styles.border}></div>
+          {/* <hr/> */}
 
           <div className={styles.productSellData}>
             <SellCard

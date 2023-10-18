@@ -4,6 +4,7 @@
 .dashboard_main{
   width: 100%;
  padding: 20px 3%;
+ /* margin: 20px 3%; */
 }
 
 .nav {
@@ -148,6 +149,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
+}
+.border{
+ border-bottom: 1px solid #B9B4C7;
+ min-width: 650px;
+ width: 100%;
 }
 .firstHeading{
   width: 60%;
@@ -160,6 +167,11 @@
   /* gap: 50px; */
   width: 40%;
   min-width: 400px;
+}
+hr {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -179,6 +191,12 @@
     overflow-x: scroll;
     overflow-y: hidden;
   }
+  hr {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
 }
 @media screen and (max-width: 480px) {
 
